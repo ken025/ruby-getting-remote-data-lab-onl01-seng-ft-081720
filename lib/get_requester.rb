@@ -4,7 +4,7 @@ require 'json'
 
 class GetRequester
   
-  def initialize(get_requester)
+  def initialize
  get_requester = GetRequester.new('https://learn-co-curriculum.github.io/json-site-example/endpoints/people.json')
 get_requester.parse_json
 end 
