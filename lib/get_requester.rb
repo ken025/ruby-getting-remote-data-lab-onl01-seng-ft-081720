@@ -14,5 +14,6 @@ end
     examples = JSON.parse(self.get_response_body)
     examples.collect do |example|
     example
+  end 
 end
 end 
